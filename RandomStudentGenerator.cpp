@@ -13,7 +13,6 @@ tuple<string, string> RandomStudentGenerator::randomStudentName() {
     name = _rfng.next();
 
     string temp = name;
-    
     stringstream out;
 
     while (temp.find(' ') != -1) {
@@ -21,8 +20,8 @@ tuple<string, string> RandomStudentGenerator::randomStudentName() {
         temp = temp.substr(temp.find(' ') + 1, temp.length() - temp.find(' '));
     }
     out << temp << "@student.hcmus.edu.vn";
-
     mail = out.str();
+
     for (int i = 0; i < mail.length(); i++) {
         if (mail[i] >= 'A' && mail[i] <= 'Z') mail[i] += 32;
     }
@@ -85,10 +84,12 @@ Address RandomStudentGenerator::randomStudentAddress() {
 
 Student RandomStudentGenerator::randomStudent() {
     int id = randomStudentId();
-    string name = get<0>(randomStudentName());
+    string name, mail;
+    auto name_mail = randomStudentName();
+    name = get<0>(name_mail);
     double gpa = randomGPA();
     string phone = randomStudentPhone();
-    string mail = get<1>(randomStudentName());
+    mail = get<1>(name_mail);
     Date dob = randomDob();
     Address address = randomStudentAddress();
     Student result(id, name, gpa, phone, mail, dob, address);

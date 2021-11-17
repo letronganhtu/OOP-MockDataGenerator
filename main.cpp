@@ -2,7 +2,7 @@
 #include "RandomStudentGenerator.h"
 
 int main() {
-	// Read file and save data in vector of Student
+	// Read file and save data back into a vector of Student
 	StudentDataReader sdr("students.txt");
 	vector<Student> studentList = sdr.readAll();
 
