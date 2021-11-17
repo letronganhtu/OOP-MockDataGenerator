@@ -11,3 +11,16 @@ string Address::streetName() { return _streetName; }
 string Address::wardName() { return _wardName; }
 string Address::districtName() { return _districtName; }
 string Address::cityName() { return _cityName; }
+
+Address::Address(int numberAddress, string street, string ward, string district, string city) {
+    _numberAddress = numberAddress;
+    _streetName = street;
+    _wardName = ward;
+    _districtName = district;
+    _cityName = city;
+}
+
+Address::Address() {
+    _numberAddress = 0;
+    _streetName = _wardName = _districtName = _cityName = "";
+}

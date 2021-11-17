@@ -1,3 +1,6 @@
+#ifndef My_Class
+#define My_Class
+
 class Date {
 private:
 	int _day;
@@ -16,3 +19,5 @@ public:
 
     Date(int, int, int);
 };
+
+#endif

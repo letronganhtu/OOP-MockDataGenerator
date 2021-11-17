@@ -1,3 +1,6 @@
+#ifndef ADDRESS
+#define ADDRESS
+
 #include <iostream>
 using namespace std;
 
@@ -20,4 +23,10 @@ public:
     string wardName(); 
     string districtName(); 
     string cityName();
+public:
+    Address(int, string, string, string, string);
+
+    Address();
 };
+
+#endif

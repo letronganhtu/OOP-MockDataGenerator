@@ -1,3 +1,6 @@
+#ifndef STUDENT
+#define STUDENT
+
 #include <iostream>
 using namespace std;
 
@@ -24,3 +27,5 @@ public:
     Date dob();
     Address address();
 };
+
+#endif
