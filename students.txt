@@ -7,9 +7,9 @@ Student: 2127832 - Nguyen Dieu Linh
     GPA=9.22, Telephone=0912-351-718
     Email=ndlinh@student.hcmus.edu.vn
     DOB=23/09/2003
-    Address=22 Ngo Thoi Nhiem, Ward 2, District 1, Ho Chi Minh city 
+    Address=22 Ngo Thoi Nhiem, Ward 2, District 1, Ho Chi Minh city
 Student: 2127833 - Ngo Thoi Chanh
     GPA=8.12, Telephone=0977-161-237
     Email=ntchanh@student.hcmus.edu.vn
     DOB=12/06/2003
-    Address=8 Binh Long, Binh Hung Hoa Ward, Binh Tan District, Ho Chi Minh city
+    Address=8 Binh Long, Binh Hung Hoa Ward, Binh Hung Hoa District, Ho Chi Minh city

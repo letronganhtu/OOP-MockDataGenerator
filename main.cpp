@@ -1,5 +1,6 @@
 #include "StudentDataReader.h"
 #include "RandomStudentGenerator.h"
+#include "StudentDataWriter.h"
 
 int main() {
 	// Read file and save data back into a vector of Student
@@ -18,15 +19,19 @@ int main() {
 		studentList.push_back(temp);
 	}
 
+	// Overwrite "students.txt" with current vector of Student
+	StudentDataWriter sdw("students.txt");
+	sdw.writeAll(studentList);
+
 	// Test code
-	for (int i = 0; i < studentList.size(); i++) {
+	/*for (int i = 0; i < studentList.size(); i++) {
 		cout << studentList[i].id() << "           " << studentList[i].name() << endl;
 		cout << studentList[i].gpa() << "\t" << studentList[i].telephone() << "\t" << studentList[i].mail() << endl;
 		cout << studentList[i].dob().day() << "/" << studentList[i].dob().month() << "/" << studentList[i].dob().year() << endl;
 		cout << studentList[i].address().numberAddress() << "--" << studentList[i].address().streetName() << "--" 
 			<< studentList[i].address().wardName() << "--" << studentList[i].address().districtName() << "--" <<
 			studentList[i].address().cityName() << endl << endl;
- 	}
+ 	}*/
 
 	return 0;
 }
