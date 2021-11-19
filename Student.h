@@ -2,6 +2,7 @@
 #define STUDENT
 
 #include <iostream>
+#include <vector>
 using namespace std;
 
 #include "Date.h"
@@ -26,6 +27,10 @@ public:
     string mail();
     Date dob();
     Address address();
+public:
+    static double calculateAverageGPA(vector<Student>);
+
+    static string GreaterThanAverageUIConverter(vector<Student>);
 };
 
 #endif

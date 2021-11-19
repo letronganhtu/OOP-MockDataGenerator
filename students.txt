@@ -12,4 +12,49 @@ Student: 2127833 - Ngo Thoi Chanh
     GPA=8.12, Telephone=0977-161-237
     Email=ntchanh@student.hcmus.edu.vn
     DOB=12/06/2003
-    Address=8 Binh Long, Binh Hung Hoa Ward, Binh Hung Hoa District, Ho Chi Minh city
+    Address=8 Binh Long, Binh Hung Hoa Ward, Binh Tan District, Ho Chi Minh city
+Student: 2127260 - Tran Dieu Huy
+    GPA=5.30, Telephone=0990-955-420
+    Email=tdhuy@student.hcmus.edu.vn
+    DOB=27/05/2003
+    Address=79 Thuy Khue, Buoi Ward, Tay Ho District, Ha Noi city
+Student: 2127027 - Le Dieu Tuan
+    GPA=6.63, Telephone=0946-216-819
+    Email=ldtuan@student.hcmus.edu.vn
+    DOB=26/10/2003
+    Address=17 Da Phuoc 10, Khue My Ward, Ngu Hanh Son District, Da Nang city
+Student: 2127690 - Ngo Hoang Thinh
+    GPA=5.71, Telephone=0948-794-703
+    Email=nhthinh@student.hcmus.edu.vn
+    DOB=26/10/2003
+    Address=264 Thuy Khue, Buoi Ward, Tay Ho District, Ha Noi city
+Student: 2127751 - Ngo Quang Huy
+    GPA=6.71, Telephone=0925-885-144
+    Email=nqhuy@student.hcmus.edu.vn
+    DOB=01/10/2003
+    Address=342 Nguyen Van Cu, Ward 4, District 5, Ho Chi Minh city
+Student: 2127554 - Nguyen Hoang Linh
+    GPA=8.64, Telephone=0981-872-124
+    Email=nhlinh@student.hcmus.edu.vn
+    DOB=09/01/2003
+    Address=110 Thuy Khue, Buoi Ward, Tay Ho District, Ha Noi city
+Student: 2127716 - Tran Dieu Khai
+    GPA=5.99, Telephone=0958-679-816
+    Email=tdkhai@student.hcmus.edu.vn
+    DOB=18/07/2003
+    Address=277 Le Duc Tho, My Dinh Ward, Nam Tu Liem District, Ha Noi city
+Student: 2127472 - Le Duc Thinh
+    GPA=7.36, Telephone=0968-392-394
+    Email=ldthinh@student.hcmus.edu.vn
+    DOB=26/04/2003
+    Address=286 Da Phuoc 10, Khue My Ward, Ngu Hanh Son District, Da Nang city
+Student: 2127323 - Nguyen Hoang Huy
+    GPA=0.09, Telephone=0984-831-954
+    Email=nhhuy@student.hcmus.edu.vn
+    DOB=21/12/2003
+    Address=380 Ton Dat Tien, Tan Phu Ward, District 7, Ho Chi Minh city
+Student: 2127573 - Pham Quang Linh
+    GPA=4.81, Telephone=0931-882-386
+    Email=pqlinh@student.hcmus.edu.vn
+    DOB=22/03/2003
+    Address=215 Le Thuc Hoach, Phu Tho Hoa Ward, Tan Phu District, Ho Chi Minh city

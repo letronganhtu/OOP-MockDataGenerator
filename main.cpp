@@ -1,3 +1,5 @@
+#include <iomanip>
+
 #include "StudentDataReader.h"
 #include "RandomStudentGenerator.h"
 #include "StudentDataWriter.h"
@@ -22,6 +24,14 @@ int main() {
 	// Overwrite "students.txt" with current vector of Student
 	StudentDataWriter sdw("students.txt");
 	sdw.writeAll(studentList);
+
+	// Calculate and print the average GPA of all students
+	double averageGPA = Student::calculateAverageGPA(studentList);
+	cout << fixed << setprecision(2) << "\nThe average GPA of all students: " << averageGPA << endl << endl;
+
+	// Print all the students that have GPA greater than average GPA
+	string printGreaterGPA = Student::GreaterThanAverageUIConverter(studentList);
+	cout << printGreaterGPA;
 
 	// Test code
 	/*for (int i = 0; i < studentList.size(); i++) {
