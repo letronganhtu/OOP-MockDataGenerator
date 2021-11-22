@@ -43,5 +43,6 @@ int main() {
 			studentList[i].address().cityName() << endl << endl;
  	}*/
 
+	cin.get();
 	return 0;
 }

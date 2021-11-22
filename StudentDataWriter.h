@@ -8,7 +8,7 @@ class StudentDataWriter {
 private:
     string _filename;
 public:
-    StudentDataWriter(string filename);
+    StudentDataWriter(string);
 public:
-    void writeAll(vector<Student> studentList);
+    void writeAll(vector<Student>);
 };

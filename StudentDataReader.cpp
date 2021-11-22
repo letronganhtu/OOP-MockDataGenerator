@@ -17,6 +17,7 @@ vector<Student> StudentDataReader::readAll() {
 
     while (!inp.eof()) {
         getline(inp, line);
+        if (line == "") break;
         int begin_idx = line.find(' ') + 1;
         int end_idx = line.find('-') - 2;
         id = stoi(line.substr(begin_idx, end_idx - begin_idx + 1));
