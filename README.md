@@ -60,12 +60,16 @@ All things I listed below are what I have done in this project:
 
 - At the end of `Student` class, I created 2 function `calculateAverageGPA` and `GreaterThanAverageUIConverter` to do final requirement in the project.
 
-Some notice in `main.cpp`:
+Notice in `main.cpp`:
 
 - Line 36-44, I add code to know what is a data of my student and check if there is any error when I write them into text file.
 
 - In Release forder, you can't run file `*.exe` without any text file. At least you must create `students.txt` or you can keep `*.pdb` I create in Release to let `*.exe` know to create text file by themselves.
 
-Link video demo: 
+Notice in `Date.cpp`:
+
+- If the program can't execute, **right click** in the project, choose **Properties** (the last) -> **C/C++** -> **Preprocessor** -> In the first line (Preprocessor Definitions) we add `_CRT_SECURE_NO_WARNINGS` and then OK. Run program again and it will be execute.
+
+Link video demo: https://youtu.be/Ks6pBYFxYJI
 
 Expect grade in project 1: 10
