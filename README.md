@@ -71,5 +71,3 @@ Notice in `Date.cpp`:
 - If the program can't execute, **right click** in the project, choose **Properties** (the last) -> **C/C++** -> **Preprocessor** -> In the first line (Preprocessor Definitions) we add `_CRT_SECURE_NO_WARNINGS` and then OK. Run program again and it will be execute.
 
 Link video demo: https://youtu.be/Ks6pBYFxYJI
-
-Expect grade in project 1: 10
